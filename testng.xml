@@ -1,0 +1,18 @@
+<suite thread-count="1" verbose="1" name="sname" parallel="tests">
+    <test verbose="2" name="MytestCase" group-by-instances="true">
+        <classes>
+            <class name="Services.EmpDepCont_R1.TestCases.ValidStatusCode"></class>
+            <class name="Services.EmpDepCont_R1.TestCases.InvalidCompanyNumber"></class>
+            <class name="Services.EmpDepCont_R1.TestCases.InvalidiQamaNumber"></class>
+            <class name="Services.EmpDepCont_R1.TestCases.RequestWithoutCompnayNumber"></class>
+            <class name="Services.EmpDepCont_R1.TestCases.RequestWithoutIqamaNumber"></class>
+            <class name="Services.EmpDepCont_R1.TestCases.RequestWithoutContractIDHeaderInfo"></class>
+            <class name="Services.EmpDepCont_R1.TestCases.RequestWithoutTokenHeaderInfo"></class>
+            <class name="Services.EmpDepCont_R1.TestCases.RquestwithoutAllHeqderInfo"></class>
+        </classes>
+    </test>
+</suite>
+
+
+
+
